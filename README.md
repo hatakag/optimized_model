@@ -8,11 +8,15 @@
 
 ## Installation
 
+* Download or clone the project from [here](https://github.com/hatakag/optimized_model.git)
+* Change working directory (cd) to the project folder
+* In this folder, open the command line and enter
 ```
 pip install -r requirements.txt
 ```
 
 ## Datasets
+
 > Please first download the datasets [here](https://drive.google.com/drive/folders/15idylZGvj0Dxm1Ey4D7K-AT4FzVgMgoK?usp=sharing) and extract them into `data/` directory.
 
 Initial datasets are from [HGCN-JE-JR](https://github.com/StephanieWyt/HGCN-JE-JR).
