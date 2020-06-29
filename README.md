@@ -1,5 +1,6 @@
 # My proposed model
 
+This is my proposed model for applying Graph convolutional networks to Cross-lingual Knowledge graph alignment.
 
 ## Prerequisites
 
@@ -10,10 +11,7 @@
 
 * Download or clone the project from [here](https://github.com/hatakag/optimized_model.git)
 * Change working directory (cd) to the project folder
-* In this folder, open the command line and enter
-```
-pip install -r requirements.txt
-```
+* In this folder, open the command line and enter ```pip install -r requirements.txt```
 
 ## Datasets
 
@@ -36,8 +34,7 @@ Take the dataset DBP15K (ZH-EN) as an example, the folder "zh_en" contains:
 
 * Modify language or some other settings in *include/Config.py*
 * cd to the directory of *main.py*
-* Shuffle the alignment seeds 
-```shuf data/zh_en/ref_ent_ids -o data/zh_en/shuffled_ref_ent_ids``` 
+* Shuffle the alignment seeds ```shuf data/zh_en/ref_ent_ids -o data/zh_en/shuffled_ref_ent_ids``` 
 (Use this to keep the train/test seeds the same when restore model from checkpoints)
 * Modify start state in *include/Config.py*
 * run *main.py*
